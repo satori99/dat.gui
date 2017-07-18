@@ -11,9 +11,9 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import NumberController from './NumberController';
-import dom from '../dom/dom';
-import common from '../utils/common';
+import NumberController from './NumberController.js';
+import dom from '../dom/dom.js';
+import common from '../utils/common.js';
 
 function roundToDecimal(value, decimals) {
   const tenTo = Math.pow(10, decimals);

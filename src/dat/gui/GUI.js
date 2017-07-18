@@ -11,21 +11,21 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import css from '../utils/css';
-import saveDialogueContents from './saveDialogue.html';
-import ControllerFactory from '../controllers/ControllerFactory';
-import Controller from '../controllers/Controller';
-import BooleanController from '../controllers/BooleanController';
-import FunctionController from '../controllers/FunctionController';
-import NumberControllerBox from '../controllers/NumberControllerBox';
-import NumberControllerSlider from '../controllers/NumberControllerSlider';
-import ColorController from '../controllers/ColorController';
-import requestAnimationFrame from '../utils/requestAnimationFrame';
-import CenteredDiv from '../dom/CenteredDiv';
-import dom from '../dom/dom';
-import common from '../utils/common';
+import css from '../utils/css.js';
+import saveDialogueContents from './saveDialogue.js';
+import ControllerFactory from '../controllers/ControllerFactory.js';
+import Controller from '../controllers/Controller.js';
+import BooleanController from '../controllers/BooleanController.js';
+import FunctionController from '../controllers/FunctionController.js';
+import NumberControllerBox from '../controllers/NumberControllerBox.js';
+import NumberControllerSlider from '../controllers/NumberControllerSlider.js';
+import ColorController from '../controllers/ColorController.js';
+import requestAnimationFrame from '../utils/requestAnimationFrame.js';
+import CenteredDiv from '../dom/CenteredDiv.js';
+import dom from '../dom/dom.js';
+import common from '../utils/common.js';
 
-import styleSheet from './style.scss'; // CSS to embed in build
+import styleSheet from './style.js'; // CSS to embed in build
 
 css.inject(styleSheet);
 

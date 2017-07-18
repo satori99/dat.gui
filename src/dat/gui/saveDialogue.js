@@ -1,4 +1,5 @@
-<div id="dg-save" class="dg dialogue">
+
+export default `<div id="dg-save" class="dg dialogue">
 
   Here's the new load parameter for your <code>GUI</code>'s constructor:
 
@@ -19,3 +20,4 @@
   </div>
 
 </div>
+`;

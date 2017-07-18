@@ -11,7 +11,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import common from '../utils/common';
+import common from '../utils/common.js';
 
 const EVENT_MAP = {
   HTMLEvents: ['change'],

@@ -11,8 +11,8 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import Controller from './Controller';
-import dom from '../dom/dom';
+import Controller from './Controller.js';
+import dom from '../dom/dom.js';
 
 /**
  * @class Provides a GUI interface to fire a specified method, a property of an object.

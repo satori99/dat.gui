@@ -11,13 +11,13 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import OptionController from './OptionController';
-import NumberControllerBox from './NumberControllerBox';
-import NumberControllerSlider from './NumberControllerSlider';
-import StringController from './StringController';
-import FunctionController from './FunctionController';
-import BooleanController from './BooleanController';
-import common from '../utils/common';
+import OptionController from './OptionController.js';
+import NumberControllerBox from './NumberControllerBox.js';
+import NumberControllerSlider from './NumberControllerSlider.js';
+import StringController from './StringController.js';
+import FunctionController from './FunctionController.js';
+import BooleanController from './BooleanController.js';
+import common from '../utils/common.js';
 
 const ControllerFactory = function(object, property) {
   const initialValue = object[property];

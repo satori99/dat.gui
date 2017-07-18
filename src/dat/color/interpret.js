@@ -11,8 +11,8 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import toString from './toString';
-import common from '../utils/common';
+import toString from './toString.js';
+import common from '../utils/common.js';
 
 const INTERPRETATIONS = [
   // Strings

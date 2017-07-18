@@ -11,8 +11,8 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import NumberController from './NumberController';
-import dom from '../dom/dom';
+import NumberController from './NumberController.js';
+import dom from '../dom/dom.js';
 
 function map(v, i1, i2, o1, o2) {
   return o1 + (o2 - o1) * ((v - i1) / (i2 - i1));

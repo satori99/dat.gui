@@ -11,10 +11,10 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import interpret from './interpret';
-import math from './math';
-import colorToString from './toString';
-import common from '../utils/common';
+import interpret from './interpret.js';
+import math from './math.js';
+import colorToString from './toString.js';
+import common from '../utils/common.js';
 
 class Color {
   constructor() {

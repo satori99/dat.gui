@@ -11,8 +11,8 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import Controller from './Controller';
-import common from '../utils/common';
+import Controller from './Controller.js';
+import common from '../utils/common.js';
 
 function numDecimals(x) {
   const _x = x.toString();

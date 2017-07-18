@@ -11,9 +11,9 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import Controller from './Controller';
-import dom from '../dom/dom';
-import common from '../utils/common';
+import Controller from './Controller.js';
+import dom from '../dom/dom.js';
+import common from '../utils/common.js';
 
 /**
  * @class Provides a select input to alter the property of an object, using a

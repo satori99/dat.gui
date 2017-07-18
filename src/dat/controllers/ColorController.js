@@ -11,11 +11,11 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-import Controller from './Controller';
-import dom from '../dom/dom';
-import Color from '../color/Color';
-import interpret from '../color/interpret';
-import common from '../utils/common';
+import Controller from './Controller.js';
+import dom from '../dom/dom.js';
+import Color from '../color/Color.js';
+import interpret from '../color/interpret.js';
+import common from '../utils/common.js';
 
 class ColorController extends Controller {
   constructor(object, property) {
